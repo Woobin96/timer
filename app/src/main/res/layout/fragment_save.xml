@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SaveFragment">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/qwe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="저장된 목록"
+            android:textSize="36sp"
+            android:gravity="center"
+            android:textColor="#D1B2FF"
+            android:textStyle="bold|italic"/>
+
+        <ListView
+            android:id="@+id/list_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/qwe"/>
+
+    </RelativeLayout>
+
+</FrameLayout>
